@@ -34,6 +34,12 @@ video {
     height: auto;             /* Maintain aspect ratio */
 }
 
+.credit {
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
