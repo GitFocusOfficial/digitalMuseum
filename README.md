@@ -1,1 +1,1 @@
-# digitalMuseum
+# Digital Museum
