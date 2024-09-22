@@ -36,6 +36,7 @@ video {
 
 .credit {
     margin-top: 10px;
+    justify-content: center;
     font-size: 14px;
     color: gray;
 }
