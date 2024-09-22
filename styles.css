@@ -5,13 +5,15 @@
 }
 
 .video-container {
-    width: 80%;  /* Adjust the width as needed */
-    margin: 20px auto;  /* Centers the video */
+    display: flex;
+    justify-content: center;  /* Horizontal center alignment */
+    align-items: center;      /* Vertical center alignment */
+    height: 80vh;             /* Adjust height to center the video vertically */
 }
   
 video {
-    width: 100%;
-    height: auto;  /* Maintain aspect ratio */
+    width: 80%;               /* Adjust the video width */
+    height: auto;             /* Maintain aspect ratio */
 }
 
 body {
