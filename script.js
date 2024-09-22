@@ -29,3 +29,16 @@ document.querySelectorAll('.photo img').forEach(image => {
         });
     });
 });
+
+const carouselImages = document.querySelector('.carousel-images');
+let isPaused = false;
+
+carouselImages.addEventListener('mouseover', () => {
+  carouselImages.style.animationPlayState = 'paused';
+  isPaused = true;
+});
+
+carouselImages.addEventListener('mouseout', () => {
+  carouselImages.style.animationPlayState = 'running';
+  isPaused = false;
+});

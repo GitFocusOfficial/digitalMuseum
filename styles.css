@@ -130,3 +130,35 @@ footer {
     color: white;
     cursor: pointer;
 }
+
+#carousel {
+    margin: 50px auto;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.carousel-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
+.carousel-images {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+  
+.carousel-images img {
+    max-width: 200px;
+    margin: 0 10px;
+}
+  
+@keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
